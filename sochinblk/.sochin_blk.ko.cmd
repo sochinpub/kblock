@@ -1,0 +1,1 @@
+cmd_/mnt/sdb/kblock/sochinblk//sochin_blk.ko := ld -r -m elf_x86_64 -T /mnt/sdb/linux-3.10.0-327.el7/scripts/module-common.lds --build-id  -o /mnt/sdb/kblock/sochinblk//sochin_blk.ko /mnt/sdb/kblock/sochinblk//sochin_blk.o /mnt/sdb/kblock/sochinblk//sochin_blk.mod.o
